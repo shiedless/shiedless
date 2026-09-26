@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/scope-read--only%20%2F%20analysis-1f6feb?style=for-the-badge" alt="scope">
 </p>
 
----
+--- 
 
 i reverse iOS game binaries and write down how the internals actually work —
 the engines, the string obfuscation, the hooking, and the anti-cheat that sits on
