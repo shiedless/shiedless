@@ -16,7 +16,7 @@ top of all of it. everything is read-only, analysis-oriented, and stops at
 understanding on purpose.
 
 - **engines** — unreal engine 4 (`GWorld`/`GNames`/`ProcessEvent`/`FName`), unity
-  il2cpp, roblox's luau vm
+  il2cpp, roblox's luau vm, netease's messiah (ecs + python gameplay layer)
 - **the low level** — arm64/arm64e by hand: inline hooks, W^X, instruction
   relocation, PAC, XOR string deobfuscation
 - **anti-cheat** — how tencent's ACE (`anogs`) is built, and why the naive attacks
@@ -46,6 +46,9 @@ a connected series — each one leans on the last. start at the hub:
   how ACE is built and why the easy attacks fail — analysis, not a bypass
 - [**roblox-ios-luau-vm-notes**](https://github.com/shiedless/roblox-ios-luau-vm-notes) —
   reversing roblox's luau runtime on iOS: functions, anchors, `lua_State` layout
+- [**ios-messiah-re**](https://github.com/shiedless/ios-messiah-re) — reversing
+  netease's messiah engine: an ecs with no `GWorld`, a python gameplay layer, and
+  telemetry anti-cheat
 - [**ida-pro-guide**](https://github.com/shiedless/ida-pro-guide) — a practical guide to
   getting around a binary in IDA
 
