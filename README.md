@@ -52,11 +52,14 @@ a connected series — each one leans on the last. start at the hub:
 - [**ida-pro-guide**](https://github.com/shiedless/ida-pro-guide) — a practical guide to
   getting around a binary in IDA
 
-### the example
+### the examples
 
 - [**Reveal**](https://github.com/shiedless/Reveal) — a ~500-line skeleton ESP for UE4
   on iOS. the concrete version of every note above: read `GWorld`, walk the actors,
   project the bones, draw. read-only.
+- [**unity-il2cpp-esp-tutorial**](https://github.com/shiedless/unity-il2cpp-esp-tutorial) —
+  the unity side: a native objc esp for an il2cpp game, from `dump.cs` to lines on
+  screen with plain uikit. no imgui, no drawing hooks.
 
 ---
 
