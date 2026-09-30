@@ -61,6 +61,9 @@ a connected series — each one leans on the last. start at the hub:
   the unity side: a native objc esp for an il2cpp game, from `dump.cs` to lines on
   screen with plain uikit. no imgui, no drawing hooks.
 
+questions about any of it go to [the discussions](https://github.com/shiedless/ios-ue4-re/discussions);
+something wrong in a note → [open a correction](https://github.com/shiedless/ios-ue4-re/issues/new?template=correction.yml).
+
 ---
 
 ### what i work with
